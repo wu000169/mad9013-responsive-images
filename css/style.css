@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -- Baseline Elements --*/
+body{ 
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  line-height: 1.5;
+}
+h1{
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+p{
+  font-family: georgia;
+  line-height: 1.75;
+}
+
+
+.wrapper{
+  max-width: 1024px;
+  margin: 0 auto;
+  display: block;
+}
+picture, img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+/* -- Header -- */
+
+.banner{
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5847/viewport-selection-opt.jpg) no-repeat 50% 50%;
+  text-transform: uppercase;
+  text-align:center;
+  color: #fff;
+  font-size: 2rem;
+  padding: 10rem 0;
+}
+
+
+
+/* ----------- Grid --------- */
+/* -------------------------- */
+.col-container{
+  margin: 3rem 0;
+}
+
+
+
+
+
+
+
+
+/* -- Footer -- */
+.footer{
+  background: #111;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 600px){
+    picture{
+        float: left;
+        width: 40%；
+        
+    }
+    
+}
+
+
+@media (max-width: 600px){
+    picture{
+        float: left;
+        width: 20%；
+        
+    }
+    
+}
+
+
+
+@media (max-width: 600px){
+    picture{
+        float: left;
+        
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+    
+    picture{
+        float: left;
+        width: 40%;
+        display: inline-block;
+        
+    }
+    
+    
+    
+}
+
+
+@media (min-width: 1024px){
+   picture{
+        float: left;
+        width: 30%;
+        display: inline-block;
+        
+    }
+    
+    
+    
+    
+}
+
+
+
+
